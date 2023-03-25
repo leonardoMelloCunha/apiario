@@ -1,4 +1,65 @@
 
+/* Estilos gerais */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 600px) {
+  /* Redimensiona as imagens para caber na largura da tela */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Simplifica o layout para dispositivos móveis */
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Cria um menu suspenso para dispositivos móveis */
+  .menu {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+    font-size: 30px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .menu-icon i {
+    color: #fff;
+  }
+  
+  .menu-open .menu {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .menu-open .menu li {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .menu-open .menu a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+
+
 
 body{
     background-image: url("https://www.papeldeparede.etc.br/fotos/wp-content/uploads/mel.jpg");
