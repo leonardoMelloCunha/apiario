@@ -1,12 +1,10 @@
-body{
-    background-image: url("https://www.papeldeparede.etc.br/fotos/wp-content/uploads/mel.jpg");
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: top;
+
+
+{
+  background: url(https://www.papeldeparede.etc.br/fotos/wp-content/uploads/mel.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
-
-
-
   
   
 
